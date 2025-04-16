@@ -36,7 +36,7 @@ print(df_2024[["Country name", "Explained by: Social support"]].sort_values(by="
 
 # 5. Top 10 Countries by Perception of Corruption
 print("\nTop 10 Countries by Perception of Corruption (Higher = Worse) in 2024:")
-print(df_2024[["Country name", "Explained by: Perceptions of corruption"]].sort_values(by="Explained by: Perceptions of corruption", ascending=False).head(10))
+print(df_2024[["Country  name", "Explained by: Perceptions of corruption"]].sort_values(by="Explained by: Perceptions of corruption", ascending=False).head(10))
 
 # 6. Top 10 Countries by Freedom to Make Life Choices
 print("\nTop 10 Countries by Freedom in 2024:")
@@ -123,4 +123,4 @@ plt.axis('equal')
 plt.tight_layout()
 plt.show()
 
-# ----------------------------- END OF PROGRAM -----------------------------
+# ----------------------------- END OF PROGRAM ------------------------------
