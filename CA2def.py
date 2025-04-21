@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Objective: Load the dataset from the World Happiness Report 2024 Excel file
+
 file_path = "F:/College Material/Sem4/Python/Project1/happinesdata.xlsx"
 df = pd.read_excel(file_path, sheet_name="Data for Figure 2.1 (2011–2024)")
 
